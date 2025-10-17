@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>INAV Tree Diagram</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://* 'unsafe-inline' 'unsafe-eval'">
+</head>
+<body>
+  <div id="controls">
+    <label>Worksheet:
+      <select id="wsSelect"></select>
+    </label>
+    <label>ID:
+      <input id="idField" placeholder="e.g., PartId">
+    </label>
+    <label>ParentID:
+      <input id="parentField" placeholder="e.g., ParentPartId">
+    </label>
+    <label>Label:
+      <input id="labelField" placeholder="e.g., PartName">
+    </label>
+    <button id="save">Save & Render</button>
+  </div>
+
+  <div id="viz"></div>
+
+  <!-- Tableau Extensions API -->
+  <script src="https://cdn.jsdelivr.net/npm/@tableau/extensions-api@1.10.0/lib/tableau.extensions.1.10.0.min.js"></script>
+  <!-- D3 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

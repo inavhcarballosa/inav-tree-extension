@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DashboardExtensionManifest xmlns="http://tableau.com/api">
+  <Version>1.0</Version>
+  <Name>INAV Tree Diagram</Name>
+  <Description>Reusable parent-child tree diagram for Tableau (dark theme).</Description>
+  <Author>INAV LLC</Author>
+  <Company>INAV LLC</Company>
+  <SourceLocation>
+    <Url>https://blue-ocean-0ad40ba10.2.azurestaticapps.net/index.html</Url>
+  </SourceLocation>
+  <Icon>https://blue-ocean-0ad40ba10.2.azurestaticapps.net/icon.png</Icon>
+  <Permissions>
+    <Permission>full_data</Permission>
+  </Permissions>
+  <MinApiVersion>1.10</MinApiVersion>
+</DashboardExtensionManifest>
