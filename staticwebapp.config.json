@@ -1,0 +1,10 @@
+{
+  "responseOverrides": {
+    "404": { "rewrite": "/index.html" }
+  },
+  "globalHeaders": {
+    "Access-Control-Allow-Origin": "*",
+    "X-Frame-Options": "ALLOWALL",
+    "Content-Security-Policy": "frame-ancestors *;"
+  }
+}
