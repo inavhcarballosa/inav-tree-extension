@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<DashboardExtensionManifest xmlns="http://tableau.com/api">
-  <Version>1.0</Version>
-  <Name>INAV Tree Diagram</Name>
-  <Description>Reusable parent-child tree diagram for Tableau (dark theme).</Description>
-  <Author>INAV LLC</Author>
-  <Company>INAV LLC</Company>
-  <SourceLocation>
-    <Url>https://blue-ocean-0ad40ba10.2.azurestaticapps.net/index.html</Url>
-  </SourceLocation>
-  <Icon>https://blue-ocean-0ad40ba10.2.azurestaticapps.net/icon.png</Icon>
-  <Permissions>
-    <Permission>full_data</Permission>
-  </Permissions>
-  <MinApiVersion>1.10</MinApiVersion>
-</DashboardExtensionManifest>
+<manifest xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="inav-tree-extension" version="1.0">
+    <name>INAV Tree Diagram</name>
+    <description>Internal tree diagram visualization extension.</description>
+    <author>INAV LLC</author>
+    <source-location>
+      <url>https://proud-bush-098e58e10.3.azurestaticapps.net</url>
+    </source-location>
+    <icon>https://proud-bush-098e58e10.3.azurestaticapps.net/icon.png</icon>
+    <permissions>
+      <permission>dataSources</permission>
+      <permission>tableauAuth</permission>
+    </permissions>
+  </dashboard-extension>
+</manifest>
