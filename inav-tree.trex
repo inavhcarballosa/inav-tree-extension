@@ -1,8 +1,9 @@
-<manifest xmlns="http://www.tableau.com/xml/extension_manifest">
-  <dashboard-extension id="inav-tree-extension" version="1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="1.0" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.inav.tree" version="1.0.0">
     <name>INAV Tree Diagram</name>
-    <description>Internal tree diagram visualization extension.</description>
-    <author>INAV LLC</author>
+    <description>Internal tree diagram visualization extension for Tableau Cloud.</description>
+    <author name="INAV LLC" email="support@inav.aero" organization="INAV LLC" />
     <source-location>
       <url>https://proud-bush-098e58e10.3.azurestaticapps.net</url>
     </source-location>
