@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest manifest-version="1" xmlns="http://www.tableau.com/xml/extension_manifest">
-  <dashboard-extension
-      id="com.inav.tree"
-      extension-version="1.0.0">
-      
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.inav.tree" extension-version="1.0.0">
     <default-locale>en_US</default-locale>
-    <name>INAV Tree Diagram</name>
+    <name resource-id="name"/>
     <description>Internal tree extension for hierarchical visualization</description>
-
-    <author
-      name="INAV LLC"
-      email="hectorc@inavllc.com"
-      organization="inav llc"
-      website="https://inavllc.com/" />
-
+    <author name="INAV LLC" email="hectorc@inavllc.com" organization="inav llc" website="https://inavllc.com/"/>
     <min-api-version>1.0</min-api-version>
-
     <source-location>
       <url>https://proud-bush-098e58e10.3.azurestaticapps.net</url>
     </source-location>
 
-    <!-- URL-based icon now valid in manifest-version 1 -->
-    <icon>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuMfApD8dtGiL7Xx_ptk82l6yrRMFt7MY7BQ&amp;s</icon>
+    <!-- Tableau requires <icon> and it must be base64, so keep a valid tiny 1×1 transparent PNG -->
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMB/ajq7T8AAAAASUVORK5CYII=
+    </icon>
 
     <permissions>
       <permission>full data</permission>
     </permissions>
-
   </dashboard-extension>
 
   <resources>
