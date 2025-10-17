@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest manifest-version="1.0" xmlns="http://www.tableau.com/xml/extension_manifest">
-  <dashboard-extension id="com.inav.tree" version="1.0.0">
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.inav.tree" extension-version="1.0.0">
+    <default-locale>en_US</default-locale>
     <name>INAV Tree Diagram</name>
-    <description>Internal tree diagram visualization extension for Tableau Cloud.</description>
-    <author name="INAV LLC" email="support@inav.aero" organization="INAV LLC" />
+    <description>Internal tree extension for hierarchical visualization</description>
+    <author name="INAV LLC" email="hectorc@inavllc.comc" organization="inav llc" website="https://inavllc.com/"/>
+    <min-api-version>1.0</min-api-version>
     <source-location>
       <url>https://proud-bush-098e58e10.3.azurestaticapps.net</url>
     </source-location>
-    <icon>https://proud-bush-098e58e10.3.azurestaticapps.net/icon.png</icon>
+    <icon>
+       iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC
+      5UlEQVR4nO2bv0sDQRDGx4WgBxAl0AMUJYJ0AHUgHYgLYgZQhXwAkAEoECJQFYgHYgHYgHYgHYhA
+      6keqA1eLbx5p7rtr2smMyGLO/ff5mZkzTqS0UF4dTz8H8Bz2wCfwkUklN6ixl9ydbazruPrCq1kHk
+      fAnHHQXAZqfATMYoUBYZSRYmsA7ku8AWdJkV0CtFADKgEhihjIioCiyIa6Kny8Ey3QFguwD0O+wb
+      ZmGGI3AF8FZAFQvU9tT6fZr7lGU1U9hSikz9AekPCT4lzghD7yMBgK5DzkU3o3HZC0FIBSoDugV4
+      b8IY0x6mSoxkoMSNmi8D9dAIe0m0dHhlNWh5R6pbiRVABH1C0T4TGiBKlPa9F6T5sMStMZhKYoih
+      PliLWWzDqP0WWFRMWioJwUCMUuKjIMrdAFZKmKqQ4RpCI6bFG0r0f6FpuQxVLC0dPqaMR2YaAhVl
+      RbQ1ZZRmlWpTrs4bM3QXAnAF6Fwq6KMgHpJvQsy2hFaC0U4dWNSk7YqgDQtYt4Cdxn5w6tFMAyVE
+      oAoNby2n9qslRWicKepEIVTBB3E7MjsDPOgKyyJplohBlRmTgy1FWAGlIqbJTV5oJ0Rr2NAzrgVp
+      yYZT4cGrZ9dtK0lwVGIE7+ehp6xXWyhBylSoC9QX0rwLcgReKn7yLaSkJsgD9aHHcn6YCV5V5U6A
+      8YJYkEQp4ll2U1ElYw9ErbEUxUbUp6v+fnYvQH4HyXqhwAAAAASUVORK5CYII=  
+    </icon>
     <permissions>
-      <permission>dataSources</permission>
-      <permission>tableauAuth</permission>
+      <permission>full data</permission>
     </permissions>
   </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">INAV Tree Diagram</text>
+    </resource>
+  </resources>
 </manifest>
